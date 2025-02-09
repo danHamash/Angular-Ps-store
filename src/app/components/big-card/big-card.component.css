@@ -1,0 +1,20 @@
+.image-container{
+  margin-top: 3rem;
+  position: relative;
+  width: 350px;
+  height: 500px;
+  overflow: hidden;
+}
+.image-container img{
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  border-radius: 9px;
+  transition: 2s;
+  background-position: center;
+  background-size: cover;
+}
+.image-container img:hover{
+  transform: scale(1.05);
+  transition: 1.5s;
+}
