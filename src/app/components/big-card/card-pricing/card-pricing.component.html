@@ -1,24 +1,23 @@
-<div  style="
-  text-transform: uppercase;" class="card-pricing-container">
+<div  class="card-pricing-container">
 
 <div class="card-pricing-content">
 
   <div>
     <a href="">
-      <h1 class="title">{{gameTitle}}</h1>
+      <h1 class="title">{{gameTitle | titlecase}}</h1>
     </a>
   </div>
 
   <div>
     <a href="">
-      <span class="type-version">{{gameVersion}}</span>
+      <span class="type-version">{{gameVersion | titlecase}}</span>
     </a>
-    <a href=""><span class="compatible">{{gameCompatible}}</span></a>
+    <a href=""><span class="compatible">{{gameCompatible | uppercase}}</span></a>
   </div>
 
   <div>
     <a href="">
-      <span class="value">${{gameValue}}</span>
+      <span class="value">{{gameValue | uppercase}}</span>
     </a>
   </div>
 </div>
